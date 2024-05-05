@@ -1,0 +1,84 @@
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+#signupForm{
+    background-color:rgba(0, 0, 0, 0.1);  
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);  
+    padding: 30px;
+    width: 90%; 
+    max-width: 400px; 
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0f0d0d;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+    background-color: #f9f9f9; 
+    color: #0c0b0b; 
+}
+button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+#loginForm{
+    background-color:rgba(0, 0, 0, 0.1);  
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);  
+    padding: 30px;
+    width: 90%; 
+    max-width: 400px; 
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
